@@ -1,0 +1,60 @@
+name: hamdars
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+ 
+  cupertino_icons: ^1.0.6
+  flutter_bloc: ^8.1.6
+  dio: ^5.6.0
+  get_it: ^7.7.0
+  svg_flutter: ^0.0.1
+  flutter_localization: ^0.2.1
+  cached_network_svg_image: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+
+  fonts:
+    - family: IranYekan
+      fonts:
+        - asset: assets/fonts/IRANYekanBoldFaNum.ttf
+        - weight: 700
+        - asset: assets/fonts/IRANYekanMediumFaNum.ttf
+        - weight: 500
+        - asset: assets/fonts/IRANYekanRegularFaNum.ttf
+        - weight: 400
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
